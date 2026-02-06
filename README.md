@@ -35,6 +35,10 @@ The Docker setup contains all dependencies. Build and start the environment with
 docker compose -d --build
 ```
 
+The project expects a host data folder mounted to /data/ inside the container (see [docker-compose.yml](docker-compose.yml)). This folder should contain the natural images and electrophysiological recordings used in the experiments. The work uses monkey V1 responses to natural images collected for:
+
+Santiago Cadena et al., “Deep convolutional models improve predictions of macaque V1 responses to natural images.”
+
 ## Usage overview
 
 1. Start the Docker environment.
